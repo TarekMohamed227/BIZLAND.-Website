@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  body
+  {
+    font-family: "Roboto" , sans-serif;
+  }
+  .nav-link
+  {
+    color: black;
+   
+  }
+
+  .nav-link:hover
+  {
+text-decoration:underline rgb(70, 173, 173)  ;
+transition: 0.5s;
+
+color: rgb(35, 83, 170);
+
+
+  }
+  #welcome h1 
+  {
+    display: inline-block;
+  }
+  #welcome h5
+  {
+    display: inline-block;
+    
+  }
+  #welcome button
+  {
+    margin-right: 1%;
+  }
+  #welcome
+  {
+    background-image: url('/assets/imgs/imgs/hero-bg.jpg');
+  }
+  
+
+  .biz
+  {
+    color: blue;
+  }
+  #welcome .container {
+    padding: 150px 0px;
+}
+#welcome p
+
+{
+    color: gray;
+}
+
+#cards{
+    margin: 50px 0px;
+}
+
+
+
+ #aboutus h2{
+    display: inline-block;
+ }
+ #aboutus .upper {
+    padding: 50px 250px ;
+ }
+ #aboutus .element{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    
+}
+ #aboutus .lower {
+    padding-bottom: 50px ;
+ }
+ #aboutus .lower .imgwrapper img{
+width: 100%;
+ }
+
+#progress {
+    margin-bottom: 200px;
+}
+#numbers .card{
+    position: relative;
+}
+#numbers .icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid white;
+    
+}
+#sponsers .imgwrapper{
+    width: 10%;
+}
+
+#sponsers .imgwrapper img{
+    width: 80%;
+}
+#services h2{
+    display: inline-block;
+}
+#services {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+#services .box{
+    width: 60px;
+    height: 60px;
+    border-radius: 15%;
+}
+
+#services .upper {
+    padding: 20px 250px ;
+ }
+ #owner{
+    
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.7), 
+        rgba(0, 0, 0, 0.7)
+      ), url('/assets/imgs/imgs/testimonials-bg.jpg');
+  background-size:cover;
+}
+
+#owner .imgwrapper{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgba(128, 128, 128, 0.473);
+    overflow: hidden;
+}
+#owner .imgwrapper img{
+    width: 100%;
+}
+
+#owner .container{
+    padding: 80px 100px;
+}
+#portfolio .upper{
+    padding: 0px 200px;
+}
+.portfolio-imgs{
+    display: flex;
+    gap: 20px;
+}
+.portfolio-imgs .column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: all 0.4s;
+}
+.portfolio-imgs .column .photo{
+    overflow: hidden;
+    top: 15px;
+    left: 15px;
+}
+
+.portfolio-imgs .column .photo:hover img{
+    transform: scale(1.1,1.1);
+}
+#team .upper {
+    padding: 0px 300px;
+
+}
+#pricing .upper {
+    padding: 0px 300px;
+
+}
+#question .upper {
+    padding: 0px 300px;
+
+}
+
